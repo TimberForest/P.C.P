@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="preto">#000000</color>
+    <color name="amarelo_padrao">#FEC10D</color>
+    <color name="branco">#fff</color>
+
+
+    <color name="amarelo">#FFFF00</color>
+    <color name="vermelho">#FF0000</color>
+    <color name="azul">#00FFFF</color>
+    <color name="verde">#00FF7F</color>
+    <color name="verdeSegurancaTrabalho">#008000</color>
+</resources>

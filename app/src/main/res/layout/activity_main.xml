@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/layout_principal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/amarelo_padrao"
+        android:orientation="vertical"
+        android:padding="10dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+<!--            <TextView
+                android:id="@+id/imageView"
+                android:layout_width="550dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:padding="5dp"
+                android:background="@drawable/logo_200" />-->
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="10dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            >
+            <TextView
+                style="@style/Legendas"
+                android:text="O.S."
+                />
+            <TextView
+                style="@style/Legendas"
+                android:text="MÁQUINA"
+                />
+            <TextView
+                style="@style/Legendas"
+                android:layout_width="400dp"
+                android:text="CLIENTE"
+                />
+            <TextView
+                style="@style/Legendas"
+                android:text="CHEGADA"
+                />
+            <TextView
+                style="@style/Legendas"
+                android:text="PREVISÃO"
+                />
+            <TextView
+                style="@style/Legendas"
+                android:text="RESTANTES"
+                />
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="5dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="570dp"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/list_pcp">
+            </android.support.v7.widget.RecyclerView>
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="15dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@drawable/screen_border_botao_grande_preto"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:gravity="center"
+            >
+
+            <TextView
+                android:id="@+id/txt_msg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center_vertical"
+                android:gravity="center_horizontal"
+                android:text="Timber Forest Equipamentos Florestais"
+                android:textAlignment="center"
+                android:textColor="@color/amarelo_padrao"
+                android:textSize="50dp"
+                android:textAllCaps="true"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

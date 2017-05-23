@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/amarelo_padrao"
+        android:padding="5dp">
+
+        <TextView
+            style="@style/EdtBrancoDeslocamento"
+            android:layout_width="90dp"
+            android:id="@+id/txt_os"
+            android:layout_marginLeft="5dp"
+            android:textAllCaps="true"
+            android:text="OS" />
+
+        <TextView
+            style="@style/EdtBrancoDeslocamento"
+            android:layout_width="150dp"
+            android:id="@+id/txt_maquina"
+            android:textAllCaps="true"
+            android:text="Maquina" />
+
+        <TextView
+            style="@style/EdtBrancoDeslocamento"
+            android:layout_width="400dp"
+            android:id="@+id/txt_cliente"
+            android:textAllCaps="true"
+            android:text="Cliente" />
+
+        <TextView
+            style="@style/EdtBrancoDeslocamento"
+            android:layout_width="150dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/txt_dtChegada"
+            android:textAllCaps="true"
+            android:text="Início" />
+
+        <TextView
+            style="@style/EdtBrancoDeslocamento"
+            android:layout_width="160dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/txt_dtPrevisao"
+            android:textAllCaps="true"
+            android:text="Previsão" />
+
+        <TextView
+            style="@style/EdtBrancoDeslocamento"
+            android:layout_width="170dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/txt_restantes"
+            android:textAllCaps="true"
+            android:text="Restante" />
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>

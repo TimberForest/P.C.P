@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "174267870668",
+    "firebase_url": "https://ang-crud-b499a.firebaseio.com",
+    "project_id": "ang-crud-b499a",
+    "storage_bucket": "ang-crud-b499a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:174267870668:android:fcad7baafead168a",
+        "android_client_info": {
+          "package_name": "br.com.timberforest.pcp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "174267870668-quv8f8c54na3vkrtu728lo5lue8ma8rq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.timberforest.pcp",
+            "certificate_hash": "c9685d1f7642c6320107fa94edc6c4cd4eefc08e"
+          }
+        },
+        {
+          "client_id": "174267870668-972hv0ddlsgg6bq4vtdfl3i9vgbgdsug.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAB1-n0a0Eo9tbRPRpPpuIg0brTapK-1O4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "174267870668-972hv0ddlsgg6bq4vtdfl3i9vgbgdsug.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
